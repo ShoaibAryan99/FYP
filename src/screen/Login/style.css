@@ -1,0 +1,178 @@
+/*@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css";
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family:sans-serif;
+}
+body{
+    width: 100;
+    height: 100vh;
+   
+    
+}
+
+
+.form-inner{
+    width:280px;
+    margin-top: -17px;
+    background-image: url(./images/lala-azizli-tfNyTfJpKvc-unsplash.jpg);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-20%,-40%);
+    color:black;
+    border: 1px solid white;
+    
+    border-radius: 10px;
+   
+}
+.form-inner h2{
+    
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    padding: 18px 0px;
+    
+}
+.form-group{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    
+    
+
+}
+.form-group input{
+    font-family: sans-serif;
+    outline: none;
+    margin: 5px ;
+    border: 1px solid rgba(128, 114, 114, 0.3);
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #58c59b6c;
+   
+    
+    
+}
+.btn{
+    width: 100%;
+   
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(11, 236, 22, 0.575);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+
+
+}
+
+.btn:hover{
+   
+        color:black;
+        background-color: rgba(50, 148, 205, 0.808);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        
+    
+    }
+    .btn:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    
+    }
+
+.form-group i{
+    text-align: center;
+    overflow: hidden;
+   
+}
+*/
+
+.head{
+    overflow: scroll;
+    background-image: url(./images/loginfinal.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+.head h3{
+    text-align: center;
+    padding: 10%;
+   font-family: sans-serif;
+}
+label{
+    font-family: sans-serif;
+       font-style:normal;
+       text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+input {
+    width: 356px;
+    outline: 0;
+    padding: 3px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3) ;
+    
+}
+.inside{
+    width: 400px;
+    /* margin: 60px auto 0 auto; */
+    background-color: #efd9c1ad;
+   
+    
+    border-radius: 1px;
+    border: 1px solid rgba(128, 114, 114, 0.3);
+    columns: #fff;
+    box-shadow: 2px 2px 3px 15px rgba(190, 189, 164, 0.657);
+}
+form#inside{
+    margin: 20px;
+}
+.btn{
+    
+    width: 100%;
+   
+    padding: 10px 24px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color:#A9B7C0 !important;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.5) !important;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: 0.2s;
+
+}
+.btn:hover{
+    color:black;
+    background-color: #C7D8C6 !important;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+
+}
+.btn:active {
+    background-color: #3d8499ec !important;
+    box-shadow: 0 5px #666 !important;
+    transform: translateY(4px);
+
+}
+.clickhere a{
+    text-decoration: none;
+}
+
+
